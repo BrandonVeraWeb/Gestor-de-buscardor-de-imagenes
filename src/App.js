@@ -23,7 +23,7 @@ const App = () => {
               }
             );
             const data = await response.json();
-            //llamar a api unsplash
+            //llamar a api a unsplash
             setPhotos(data.results);
           }}
         >
